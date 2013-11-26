@@ -175,3 +175,10 @@ class Fysom(object):
             return isinstance(object, basestring)
         except NameError:
             return isinstance(object, str)
+
+    def available_event(self):
+        available_event = []
+        for event in self._map:
+            if (self.current in self._map[event]) and not hasattr(self, 'transition'):
+                available_event.append(event)
+        return available_event

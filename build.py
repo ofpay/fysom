@@ -41,14 +41,15 @@ use_plugin('python.pydev')
 use_plugin('copy_resources')
 
 name = 'fysom'
-url = 'https://github.com/mriehl/fysom'
+url = 'https://github.com/ofpay/fysom'
 license = 'MIT'
 authors = [Author('Mansour Behabadi', 'mansour@oxplot.com'),
            Author('Jake Gordon', 'jake@codeincomplete.com'),
            Author('Maximilien Riehl', 'maximilien.riehl@gmail.com'),
-           Author('Stefano', email='')]
+           Author('Stefano', email=''),
+           Author('Joe Cao', 'chinalibra@163.com')]
 summary = 'pYthOn Finite State Machine'
-version = '1.0.14'
+version = '1.0.15'
 
 default_task = ['analyze', 'publish']
 
